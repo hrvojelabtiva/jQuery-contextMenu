@@ -12,7 +12,7 @@
  * Licensed under
  *   MIT License http://www.opensource.org/licenses/mit-license
  *
- * Date: 2019-10-13T13:09:56.297Z
+ * Date: 2019-10-22T13:39:00.024Z
  */
 @-webkit-keyframes cm-spin {
   0% {
@@ -54,8 +54,8 @@
   font-style: normal; 
   font-weight: normal;
 
-  src: url("font/context-menu-icons.eot?4f0ru");
-  src: url("font/context-menu-icons.eot?4f0ru#iefix") format("embedded-opentype"), url("font/context-menu-icons.woff2?4f0ru") format("woff2"), url("font/context-menu-icons.woff?4f0ru") format("woff"), url("font/context-menu-icons.ttf?4f0ru") format("truetype");
+  src: url("font/context-menu-icons.eot?1is6s");
+  src: url("font/context-menu-icons.eot?1is6s#iefix") format("embedded-opentype"), url("font/context-menu-icons.woff2?1is6s") format("woff2"), url("font/context-menu-icons.woff?1is6s") format("woff"), url("font/context-menu-icons.ttf?1is6s") format("truetype");
 }
 
 .context-menu-icon-add:before {

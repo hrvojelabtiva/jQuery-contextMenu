@@ -382,7 +382,7 @@
             mouseenter: function (e) {
                 var $this = $(this),
                     $related = $(e.relatedTarget),
-                    $document = $(document);
+                    $document = $(document.documentElement);
 
                 // abort if we're coming from a menu
                 if ($related.is('.context-menu-list') || $related.closest('.context-menu-list').length) {
@@ -1668,17 +1668,17 @@
 
         // merge with default options
         var o = $.extend(true, {}, defaults, options || {});
-        var $document = $(document);
+        var $document = $(document.documentElement);
         var $context = $document;
         var _hasContext = false;
 
         if (!o.context || !o.context.length) {
-            o.context = document;
+            o.context = document.documentElement;
         } else {
             // you never know what they throw at you...
             $context = $(o.context).first();
             o.context = $context.get(0);
-            _hasContext = !$(o.context).is(document);
+            _hasContext = !$(o.context).is(document.documentElement);
         }
 
         switch (operation) {
